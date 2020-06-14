@@ -40,3 +40,14 @@ yields
 ```
 error: while setting up the build environment: unable to bind mount '/mnt/gamma/nix/store/9yg221lkyb3q0214gcz6i3fg9izfc2jk-append-initrd-secrets.drv.chroot': Permission denied
 ```
+
+
+Relevant links
+---
+
+- [Source code for similar error message](https://github.com/NixOS/nix/blob/045b07200c77bf1fe19c0a986aafb531e7e1ba54/src/libstore/build.cc#L3119-L3135)
+- [GitHub issue reporting this problem](https://github.com/NixOS/nixpkgs/issues/67465)
+- Discourse threads
+  - https://discourse.nixos.org/t/nixos-install-unable-to-bind-mount/3786
+  - https://discourse.nixos.org/t/unable-to-nixos-install-from-live-cd/2533
+  - https://discourse.nixos.org/t/unable-to-bind-mount-networkmanager-conf-drv-chroot/5499
