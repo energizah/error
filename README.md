@@ -1,7 +1,7 @@
 Issue
 ----------
 
-I'm trying to install nixos.
+I'm trying to install NixOS.
 
 The drive is [WD Blue SN550 1TB NVMe](https://www.amazon.com/gp/product/B07YFFX5MD/).
 
