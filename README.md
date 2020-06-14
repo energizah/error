@@ -1,7 +1,7 @@
 Issue
 ----------
 
-I'm trying to install NixOS.
+I'm trying to install NixOS from nixos-unstable (20.09pre226148.0f5ce2fac0c).
 
 The drive is [WD Blue SN550 1TB NVMe](https://www.amazon.com/gp/product/B07YFFX5MD/).
 
