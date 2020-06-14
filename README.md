@@ -32,6 +32,13 @@ sde      8:64   0 931.5G  0 disk
 └─sde2   8:66   0   931G  0 part /mnt/gamma
 ```
 
+and these fileystems:
+
+```
+/dev/sde2 on /mnt/gamma type ext4 (rw,relatime)
+/dev/sde1 on /mnt/gamma/boot type vfat (rw,relatime,fmask=0027,dmask=0027,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro)
+```
+
 
 Issuing
 ```
