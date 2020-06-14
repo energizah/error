@@ -1,3 +1,6 @@
+Issue
+----------
+
 I'm trying to install nixos.
 
 The drive is [WD Blue SN550 1TB NVMe](https://www.amazon.com/gp/product/B07YFFX5MD/).
@@ -41,6 +44,8 @@ yields
 error: while setting up the build environment: unable to bind mount '/mnt/gamma/nix/store/9yg221lkyb3q0214gcz6i3fg9izfc2jk-append-initrd-secrets.drv.chroot': Permission denied
 ```
 
+
+This repo contains a minimal `configuration.nix` and the output of `strace -ff nixos-install --root /mnt/gamma`.
 
 Relevant links
 ---
